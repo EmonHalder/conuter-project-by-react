@@ -14,8 +14,8 @@ function App() {
   }, [isRunning])
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-100 to-white flex items-center justify-center px-4">
-      <div className="w-full max-w-[1200px] text-center bg-white/80 backdrop-blur-lg shadow-2xl border border-gray-200 rounded-3xl p-10 space-y-10">
+    <div className="h-screen w-screen bg-gradient-to-br from-indigo-100 to-white flex items-center justify-center">
+      <div className="w-full max-w-[1200px] text-center bg-white/80 backdrop-blur-lg shadow-2xl border border-gray-200 rounded-3xl p-10 space-y-10 mx-4">
         <h1 className="text-4xl font-bold text-indigo-700">Counter & Stopwatch</h1>
 
         {/* Counter Section */}
